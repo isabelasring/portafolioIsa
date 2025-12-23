@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "competencies": "Competencias",
+    "education": "Formación",
+    "tools": "Herramientas",
+    "languages": "Idiomas",
+    "experience": "Experiencia",
+    "projects": "Proyectos"
+  },
+  "hero": {
+    "title": "Isabela Sánchez Ramírez",
+    "subtitle": "Ingeniera de Datos y Software",
+    "description": "Creando código con propósito y analizando datos con pasión. Ingeniera comprometida con construir tecnología que resuelva problemas reales.",
+    "knowMore": "Conóceme más",
+    "viewProjects": "Ver Proyectos"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "personalProfile": "Perfil Personal",
+    "description": "Soy una persona proactiva, disciplinada y autodidacta, con una pasión constante por aprender y crecer profesionalmente. Como Ingeniera de Datos y Software, poseo competencias y habilidades diversas que me permiten enfrentar desafíos tecnológicos y analíticos con creatividad y eficiencia. Mi enfoque está en crear soluciones innovadoras que generen valor real.",
+    "birthDate": "Fecha de nacimiento",
+    "id": "C.C.",
+    "phone": "Celular",
+    "email": "Correo"
+  },
+  "competencies": {
+    "title": "Competencias",
+    "being": {
+      "title": "Competencias del Ser",
+      "items": [
+        "Pasión por la innovación tecnológica",
+        "Análisis de datos para aprendizaje continuo y mejora",
+        "Trabajo colaborativo en equipos multidisciplinarios",
+        "Actitud resiliente ante los desafíos"
+      ]
+    },
+    "knowing": {
+      "title": "Competencias del Saber",
+      "items": [
+        "Programación: Python, JavaScript, PHP, C#",
+        "SQL para bases de datos relacionales",
+        "Fundamentos de Data Science e Ingeniería de Software",
+        "Herramientas de programación y análisis de datos"
+      ]
+    },
+    "doing": {
+      "title": "Competencias del Saber Hacer",
+      "items": [
+        "Diseño e implementación de sistemas de almacenamiento y procesamiento de datos",
+        "Análisis exploratorio y visualización efectiva",
+        "Desarrollo básico de plataformas web con Flask y Django",
+        "Análisis de problemas mediante algoritmos y estructuras de datos"
+      ]
+    }
+  },
+  "education": {
+    "title": "Formación Académica",
+    "primarySecondary": "Primaria y Secundaria",
+    "technical": "Técnica en Asistencia Administrativa",
+    "frontend": "Desarrollo Frontend",
+    "web": "Desarrollo Web",
+    "dataEngineering": "Ingeniería de Datos y Software",
+    "english": "Inglés",
+    "certificate": "Certificado",
+    "inProgress": "En curso",
+    "primary": "Primaria: 2009-2014 | Secundaria: 2015-2020",
+    "current": "Actualidad"
+  },
+  "tools": {
+    "title": "Herramientas",
+    "office": "Herramientas Ofimáticas",
+    "productivity": "Productividad",
+    "management": "Gestión",
+    "development": "Desarrollo",
+    "database": "Base de Datos",
+    "analysis": "Análisis",
+    "versionControl": "Control de Versiones"
+  },
+  "languages": {
+    "title": "Idiomas",
+    "spanish": "Español",
+    "english": "Inglés",
+    "native": "Nativo",
+    "certificateAvailable": "Certificado examen APTIS disponible",
+    "certified": "Certificado"
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "supervisor": "Jefe inmediato:",
+    "functions": "Funciones:"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Proyectos relevantes que he desarrollado, demostrando mi experiencia y habilidades adquiridas hasta ahora en el campo de la ingeniería de datos y el desarrollo de software.",
+    "degreeProject": "Proyecto de grado",
+    "viewRepository": "Ver Repositorio"
+  },
+  "footer": {
+    "description": "Ingeniera de Datos y Software apasionada por crear soluciones innovadoras que generen valor real.",
+    "contact": "Contacto",
+    "follow": "Sígueme",
+    "madeWith": "Hecho con"
+  },
+  "experienceItems": {
+    "webDeveloper": {
+      "title": "Desarrolladora Web",
+      "company": "Geotrends",
+      "period": "Octubre - Diciembre 2025",
+      "supervisor": "Jonathan Ochoa Villegas",
+      "phone": "3117059784",
+      "responsibilities": [
+        "Integración del proyecto del geoportal para el municipio de Envigado",
+        "Transformar diseños en interfaces funcionales",
+        "Escribir código en lenguajes como HTML, CSS y JavaScript",
+        "Integrar APIs y generar gráficas dinámicas, así como conectar servicios externos",
+        "Optimizar el rendimiento y la accesibilidad del sitio",
+        "Asegurar que la página se visualice correctamente en distintos dispositivos",
+        "Solucionar errores",
+        "Trabajar con bases de datos",
+        "Colaborar con diseñadores, analistas y otros desarrolladores para entregar un producto digital eficiente, seguro y fácil de usar"
+      ]
+    },
+    "intern": {
+      "title": "Practicante de Ingeniería de Datos y Software",
+      "company": "Auna - Clínica las Américas",
+      "period": "Junio - Diciembre 2024",
+      "supervisor": "Juan David Rodríguez Erazo",
+      "phone": "3225100112",
+      "responsibilities": [
+        "Definir casos de uso y escenarios de operación para el sistema Matrix",
+        "Diseñar una interfaz de usuario intuitiva y accesible, donde los usuarios puedan buscar, filtrar y visualizar parámetros y valores de configuración fácilmente",
+        "Definir y aplicar pautas de experiencia de usuario (UX) que optimicen la facilidad de uso del módulo del sistema Matrix de Auna",
+        "Programar y configurar el Backend del módulo, integrándolo con la base de datos y las aplicaciones necesarias para gestionar parámetros y valores de configuración"
+      ]
+    }
+  },
+  "projectItems": {
+    "rvistete": {
+      "title": "R-vistete",
+      "description": "Página web para alquiler y compra de prendas basada en moda circular con análisis de sentimientos.",
+      "type": "Proyecto de grado"
+    }
+  }
+}
+

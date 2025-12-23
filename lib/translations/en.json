@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "competencies": "Competencies",
+    "education": "Education",
+    "tools": "Tools",
+    "languages": "Languages",
+    "experience": "Experience",
+    "projects": "Projects"
+  },
+  "hero": {
+    "title": "Isabela Sánchez Ramírez",
+    "subtitle": "Data and Software Engineer",
+    "description": "Creating code with purpose and analyzing data with passion. Engineer committed to building technology that solves real problems.",
+    "knowMore": "Know More",
+    "viewProjects": "View Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "personalProfile": "Personal Profile",
+    "description": "I am a proactive, disciplined, and self-taught person, with a constant passion for learning and growing professionally. As a Data and Software Engineer, I possess diverse competencies and skills that allow me to face technological and analytical challenges with creativity and efficiency. My focus is on creating innovative solutions that generate real value.",
+    "birthDate": "Date of birth",
+    "id": "ID",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "competencies": {
+    "title": "Competencies",
+    "being": {
+      "title": "Being Competencies",
+      "items": [
+        "Passion for technological innovation",
+        "Data analysis for continuous learning and improvement",
+        "Collaborative work in multidisciplinary teams",
+        "Resilient attitude towards challenges"
+      ]
+    },
+    "knowing": {
+      "title": "Knowing Competencies",
+      "items": [
+        "Programming: Python, JavaScript, PHP, C#",
+        "SQL for relational databases",
+        "Fundamentals of Data Science and Software Engineering",
+        "Programming and data analysis tools"
+      ]
+    },
+    "doing": {
+      "title": "Doing Competencies",
+      "items": [
+        "Design and implementation of data storage and processing systems",
+        "Exploratory analysis and effective visualization",
+        "Basic development of web platforms with Flask and Django",
+        "Problem analysis through algorithms and data structures"
+      ]
+    }
+  },
+  "education": {
+    "title": "Academic Education",
+    "primarySecondary": "Primary and Secondary",
+    "technical": "Technical in Administrative Assistance",
+    "frontend": "Frontend Development",
+    "web": "Web Development",
+    "dataEngineering": "Data and Software Engineering",
+    "english": "English",
+    "certificate": "Certificate",
+    "inProgress": "In Progress",
+    "primary": "Primary: 2009-2014 | Secondary: 2015-2020",
+    "current": "Present"
+  },
+  "tools": {
+    "title": "Tools",
+    "office": "Office Tools",
+    "productivity": "Productivity",
+    "management": "Management",
+    "development": "Development",
+    "database": "Database",
+    "analysis": "Analysis",
+    "versionControl": "Version Control"
+  },
+  "languages": {
+    "title": "Languages",
+    "spanish": "Spanish",
+    "english": "English",
+    "native": "Native",
+    "certificateAvailable": "APTIS exam certificate available",
+    "certified": "Certified"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "supervisor": "Immediate supervisor:",
+    "functions": "Functions:"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Relevant projects I have developed, demonstrating my experience and skills acquired so far in the field of data engineering and software development.",
+    "degreeProject": "Degree Project",
+    "viewRepository": "View Repository"
+  },
+  "footer": {
+    "description": "Data and Software Engineer passionate about creating innovative solutions that generate real value.",
+    "contact": "Contact",
+    "follow": "Follow Me",
+    "madeWith": "Made with"
+  },
+  "experienceItems": {
+    "webDeveloper": {
+      "title": "Web Developer",
+      "company": "Geotrends",
+      "period": "October - December 2025",
+      "supervisor": "Jonathan Ochoa Villegas",
+      "phone": "3117059784",
+      "responsibilities": [
+        "Integration of the geoportal project for the municipality of Envigado",
+        "Transform designs into functional interfaces",
+        "Write code in languages such as HTML, CSS and JavaScript",
+        "Integrate APIs and generate dynamic charts, as well as connect external services",
+        "Optimize site performance and accessibility",
+        "Ensure the page displays correctly on different devices",
+        "Fix errors",
+        "Work with databases",
+        "Collaborate with designers, analysts and other developers to deliver an efficient, secure and easy-to-use digital product"
+      ]
+    },
+    "intern": {
+      "title": "Data and Software Engineering Intern",
+      "company": "Auna - Clínica las Américas",
+      "period": "June - December 2024",
+      "supervisor": "Juan David Rodríguez Erazo",
+      "phone": "3225100112",
+      "responsibilities": [
+        "Define use cases and operation scenarios for the Matrix system",
+        "Design an intuitive and accessible user interface, where users can search, filter and visualize configuration parameters and values easily",
+        "Define and apply user experience (UX) guidelines that optimize the ease of use of the Matrix system module of Auna",
+        "Program and configure the Backend of the module, integrating it with the database and the necessary applications to manage configuration parameters and values"
+      ]
+    }
+  },
+  "projectItems": {
+    "rvistete": {
+      "title": "R-vistete",
+      "description": "Website for renting and buying garments based on circular fashion with sentiment analysis.",
+      "type": "Degree Project"
+    }
+  }
+}
+
