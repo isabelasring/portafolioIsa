@@ -69,10 +69,10 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-purple-500/10 z-10" />
               <Image
-                src="/isa.jpeg"
+                src="/YO.jpeg"
                 alt={t('hero.title')}
                 fill
-                className="object-cover z-0"
+                className="object-cover object-[56%_center] z-0"
                 priority
                 sizes="(max-width: 768px) 192px, 256px"
               />

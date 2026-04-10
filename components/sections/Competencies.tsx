@@ -7,7 +7,6 @@ import { useLanguage } from '@/lib/LanguageContext'
 export default function Competencies() {
   const { t } = useLanguage()
 
-  // Helper function to safely get array from translations
   const getItems = (key: string): string[] => {
     const value = t(key)
     return Array.isArray(value) ? value : []
@@ -36,6 +35,7 @@ export default function Competencies() {
       items: getItems('competencies.doing.items'),
     },
   ]
+
   return (
     <section id="competencias" className="py-20 px-4 sm:px-6 lg:px-8 relative bg-gray-900/30">
       <div className="max-w-7xl mx-auto">
@@ -70,17 +70,16 @@ export default function Competencies() {
               whileHover={{ y: -10, scale: 1.02 }}
               className={`${competency.bgColor} backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all relative overflow-hidden group`}
             >
-              {/* Decorative gradient overlay */}
               <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${competency.color} opacity-10 rounded-full blur-2xl group-hover:opacity-20 transition-opacity`} />
-              
+
               <div className={`inline-flex p-4 bg-gradient-to-br ${competency.color} rounded-xl mb-6 relative z-10`}>
                 <competency.icon className="w-8 h-8 text-white" />
               </div>
-              
+
               <h3 className="text-2xl font-bold text-gray-100 mb-4 relative z-10">
                 {competency.title}
               </h3>
-              
+
               <ul className="space-y-3 relative z-10">
                 {competency.items.map((item, itemIndex) => (
                   <motion.li
@@ -103,4 +102,3 @@ export default function Competencies() {
     </section>
   )
 }
-

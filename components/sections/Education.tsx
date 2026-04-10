@@ -48,8 +48,8 @@ export default function Education() {
       icon: GraduationCap,
       title: t('education.dataEngineering'),
       institution: 'Universidad de San Buenaventura',
-      period: `2021 - ${t('education.current')}`,
-      type: t('education.inProgress'),
+      period: t('education.degreePeriod'),
+      type: t('education.graduated'),
       level: null,
       certificateUrl: null,
     },
@@ -63,6 +63,7 @@ export default function Education() {
       certificateUrl: 'https://drive.google.com/drive/folders/14nTAf8ofusVy_7NYVvPSKRj0gpsDEnmj',
     },
   ]
+
   return (
     <section id="formacion" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50 backdrop-blur-sm relative z-10">
       <div className="max-w-7xl mx-auto">
@@ -82,7 +83,7 @@ export default function Education() {
         <div className="space-y-6">
           {education.map((edu, index) => {
             const ContentWrapper = edu.certificateUrl ? motion.a : motion.div
-            const wrapperProps = edu.certificateUrl 
+            const wrapperProps = edu.certificateUrl
               ? {
                   href: edu.certificateUrl,
                   target: '_blank',
@@ -106,7 +107,7 @@ export default function Education() {
                 <div className="p-4 bg-gradient-to-br from-pink-500 to-purple-500 rounded-xl group-hover:scale-110 transition-transform flex-shrink-0">
                   <edu.icon className="w-8 h-8 text-white" />
                 </div>
-                
+
                 <div className="flex-1">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
                     <div className="flex items-center gap-2">
@@ -117,23 +118,27 @@ export default function Education() {
                         <ExternalLink className="w-4 h-4 text-pink-400 opacity-0 group-hover:opacity-100 transition-opacity" />
                       )}
                     </div>
-                    <span className={`px-4 py-1 rounded-full text-sm font-semibold ${
-                      edu.type === t('education.inProgress')
-                        ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white'
-                        : 'bg-pink-500/20 text-pink-300 border border-pink-500/30'
-                    }`}>
+                    <span
+                      className={`px-4 py-1 rounded-full text-sm font-semibold ${
+                        edu.type === t('education.inProgress')
+                          ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white'
+                          : edu.type === t('education.graduated')
+                            ? 'bg-gradient-to-r from-emerald-500 to-teal-500 text-white'
+                            : 'bg-pink-500/20 text-pink-300 border border-pink-500/30'
+                      }`}
+                    >
                       {edu.type}
                     </span>
                   </div>
-                  
+
                   <p className="text-lg text-purple-400 font-semibold mb-1">
                     {edu.institution}
                   </p>
-                  
+
                   {edu.level && (
                     <p className="text-gray-400 mb-2">{edu.level}</p>
                   )}
-                  
+
                   <p className="text-gray-400 text-sm">{edu.period}</p>
                 </div>
               </ContentWrapper>
@@ -144,4 +149,3 @@ export default function Education() {
     </section>
   )
 }
-

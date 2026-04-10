@@ -28,30 +28,31 @@
   "competencies": {
     "title": "Competencies",
     "being": {
-      "title": "Being Competencies",
+      "title": "Professional skills",
       "items": [
-        "Passion for technological innovation",
-        "Data analysis for continuous learning and improvement",
-        "Collaborative work in multidisciplinary teams",
-        "Resilient attitude towards challenges"
+        "Problem solving",
+        "Analytical thinking",
+        "Teamwork in technology environments",
+        "Adaptability to change",
+        "Continuous learning",
+        "Effective communication"
       ]
     },
     "knowing": {
-      "title": "Knowing Competencies",
+      "title": "Languages and databases",
       "items": [
-        "Programming: Python, JavaScript, PHP, C#",
-        "SQL for relational databases",
-        "Fundamentals of Data Science and Software Engineering",
-        "Programming and data analysis tools"
+        "Languages: Python, JavaScript, TypeScript, C#, PHP, SQL",
+        "Databases: PostgreSQL, MySQL, SQL Server"
       ]
     },
     "doing": {
-      "title": "Doing Competencies",
+      "title": "Technical experience",
       "items": [
-        "Design and implementation of data storage and processing systems",
-        "Exploratory analysis and effective visualization",
-        "Basic development of web platforms with Flask and Django",
-        "Problem analysis through algorithms and data structures"
+        "Backend and APIs with Node.js, Express, Flask and Django",
+        "Cross-platform development with Flutter",
+        "Data design, implementation and visualization",
+        "Cloud services (AWS, Azure) and deployment best practices",
+        "Exploratory analysis, API testing and agile collaboration"
       ]
     }
   },
@@ -65,11 +66,14 @@
     "english": "English",
     "certificate": "Certificate",
     "inProgress": "In Progress",
+    "graduated": "Graduate",
+    "degreePeriod": "2021 - 2026",
     "primary": "Primary: 2009-2014 | Secondary: 2015-2020",
     "current": "Present"
   },
   "tools": {
     "title": "Tools",
+    "titleExtended": "Tools and software",
     "office": "Office Tools",
     "productivity": "Productivity",
     "management": "Management",
@@ -77,6 +81,36 @@
     "database": "Database",
     "analysis": "Analysis",
     "versionControl": "Version Control"
+  },
+  "toolCategories": {
+    "development": {
+      "title": "Development",
+      "items": ["Visual Studio Code", "Visual Studio"]
+    },
+    "versionControl": {
+      "title": "Version control",
+      "items": ["Git", "GitHub"]
+    },
+    "frameworks": {
+      "title": "Frameworks and technologies",
+      "items": ["Flask", "Django", "Node.js", "Express", "Flutter"]
+    },
+    "cloud": {
+      "title": "Cloud",
+      "items": ["AWS (EC2, S3, RDS)", "Microsoft Azure"]
+    },
+    "management": {
+      "title": "Management and testing",
+      "items": ["Jira", "Postman"]
+    },
+    "analysis": {
+      "title": "Data analysis",
+      "items": ["Power BI"]
+    },
+    "databases": {
+      "title": "Databases",
+      "items": ["PostgreSQL", "MySQL Workbench", "SQL Server"]
+    }
   },
   "languages": {
     "title": "Languages",
@@ -87,9 +121,10 @@
     "certified": "Certified"
   },
   "experience": {
-    "title": "Work Experience",
+    "title": "Professional experience",
     "supervisor": "Immediate supervisor:",
-    "functions": "Functions:"
+    "functions": "Functions:",
+    "responsibilitiesHeading": "Key responsibilities"
   },
   "projects": {
     "title": "Projects",
@@ -105,34 +140,29 @@
   },
   "experienceItems": {
     "webDeveloper": {
-      "title": "Web Developer",
+      "title": "Software Developer",
       "company": "Geotrends",
-      "period": "October - December 2025",
-      "supervisor": "Jonathan Ochoa Villegas",
-      "phone": "3117059784",
+      "period": "October 2025 – Present",
+      "supervisor": "",
+      "phone": "",
       "responsibilities": [
-        "Integration of the geoportal project for the municipality of Envigado",
-        "Transform designs into functional interfaces",
-        "Write code in languages such as HTML, CSS and JavaScript",
-        "Integrate APIs and generate dynamic charts, as well as connect external services",
-        "Optimize site performance and accessibility",
-        "Ensure the page displays correctly on different devices",
-        "Fix errors",
-        "Work with databases",
-        "Collaborate with designers, analysts and other developers to deliver an efficient, secure and easy-to-use digital product"
+        "Web interface development using HTML, CSS, JavaScript, Python and TypeScript.",
+        "Integration of APIs and external services for system features.",
+        "Dynamic visualizations and charts for information analysis.",
+        "Performance, accessibility and cross-device compatibility optimization."
       ]
     },
     "intern": {
       "title": "Data and Software Engineering Intern",
-      "company": "Auna - Clínica las Américas",
-      "period": "June - December 2024",
-      "supervisor": "Juan David Rodríguez Erazo",
-      "phone": "3225100112",
+      "company": "Auna – Clínica Las Américas",
+      "period": "June 2024 – December 2024",
+      "supervisor": "",
+      "phone": "",
       "responsibilities": [
-        "Define use cases and operation scenarios for the Matrix system",
-        "Design an intuitive and accessible user interface, where users can search, filter and visualize configuration parameters and values easily",
-        "Define and apply user experience (UX) guidelines that optimize the ease of use of the Matrix system module of Auna",
-        "Program and configure the Backend of the module, integrating it with the database and the necessary applications to manage configuration parameters and values"
+        "Development and implementation of a backend module integrated with databases (SQL, Python and PHP).",
+        "UX-focused interface design.",
+        "Definition of use cases and operational scenarios for the system.",
+        "Support in managing and organizing internal system parameters."
       ]
     }
   },

@@ -28,30 +28,31 @@
   "competencies": {
     "title": "Competencias",
     "being": {
-      "title": "Competencias del Ser",
+      "title": "Habilidades profesionales",
       "items": [
-        "Pasión por la innovación tecnológica",
-        "Análisis de datos para aprendizaje continuo y mejora",
-        "Trabajo colaborativo en equipos multidisciplinarios",
-        "Actitud resiliente ante los desafíos"
+        "Resolución de problemas",
+        "Pensamiento analítico",
+        "Trabajo en equipo en entornos tecnológicos",
+        "Adaptabilidad al cambio",
+        "Aprendizaje continuo",
+        "Comunicación efectiva"
       ]
     },
     "knowing": {
-      "title": "Competencias del Saber",
+      "title": "Lenguajes y bases de datos",
       "items": [
-        "Programación: Python, JavaScript, PHP, C#",
-        "SQL para bases de datos relacionales",
-        "Fundamentos de Data Science e Ingeniería de Software",
-        "Herramientas de programación y análisis de datos"
+        "Lenguajes: Python, JavaScript, TypeScript, C#, PHP, SQL",
+        "Bases de datos: PostgreSQL, MySQL, SQL Server"
       ]
     },
     "doing": {
-      "title": "Competencias del Saber Hacer",
+      "title": "Experiencia técnica",
       "items": [
-        "Diseño e implementación de sistemas de almacenamiento y procesamiento de datos",
-        "Análisis exploratorio y visualización efectiva",
-        "Desarrollo básico de plataformas web con Flask y Django",
-        "Análisis de problemas mediante algoritmos y estructuras de datos"
+        "Backend y APIs con Node.js, Express, Flask y Django",
+        "Desarrollo multiplataforma con Flutter",
+        "Diseño e implementación de datos y visualización",
+        "Servicios en la nube (AWS, Azure) y buenas prácticas de despliegue",
+        "Análisis exploratorio, pruebas de APIs y trabajo ágil con equipos"
       ]
     }
   },
@@ -65,11 +66,14 @@
     "english": "Inglés",
     "certificate": "Certificado",
     "inProgress": "En curso",
+    "graduated": "Graduada",
+    "degreePeriod": "2021 - 2026",
     "primary": "Primaria: 2009-2014 | Secundaria: 2015-2020",
     "current": "Actualidad"
   },
   "tools": {
     "title": "Herramientas",
+    "titleExtended": "Herramientas y programas",
     "office": "Herramientas Ofimáticas",
     "productivity": "Productividad",
     "management": "Gestión",
@@ -77,6 +81,36 @@
     "database": "Base de Datos",
     "analysis": "Análisis",
     "versionControl": "Control de Versiones"
+  },
+  "toolCategories": {
+    "development": {
+      "title": "Desarrollo",
+      "items": ["Visual Studio Code", "Visual Studio"]
+    },
+    "versionControl": {
+      "title": "Control de versiones",
+      "items": ["Git", "GitHub"]
+    },
+    "frameworks": {
+      "title": "Frameworks y tecnologías",
+      "items": ["Flask", "Django", "Node.js", "Express", "Flutter"]
+    },
+    "cloud": {
+      "title": "Cloud",
+      "items": ["AWS (EC2, S3, RDS)", "Microsoft Azure"]
+    },
+    "management": {
+      "title": "Gestión y pruebas",
+      "items": ["Jira", "Postman"]
+    },
+    "analysis": {
+      "title": "Análisis de datos",
+      "items": ["Power BI"]
+    },
+    "databases": {
+      "title": "Bases de datos",
+      "items": ["PostgreSQL", "MySQL Workbench", "SQL Server"]
+    }
   },
   "languages": {
     "title": "Idiomas",
@@ -87,9 +121,10 @@
     "certified": "Certificado"
   },
   "experience": {
-    "title": "Experiencia Laboral",
+    "title": "Experiencia profesional",
     "supervisor": "Jefe inmediato:",
-    "functions": "Funciones:"
+    "functions": "Funciones:",
+    "responsibilitiesHeading": "Principales responsabilidades"
   },
   "projects": {
     "title": "Proyectos",
@@ -105,34 +140,29 @@
   },
   "experienceItems": {
     "webDeveloper": {
-      "title": "Desarrolladora Web",
+      "title": "Desarrolladora de Software",
       "company": "Geotrends",
-      "period": "Octubre - Diciembre 2025",
-      "supervisor": "Jonathan Ochoa Villegas",
-      "phone": "3117059784",
+      "period": "Octubre 2025 – Actualidad",
+      "supervisor": "",
+      "phone": "",
       "responsibilities": [
-        "Integración del proyecto del geoportal para el municipio de Envigado",
-        "Transformar diseños en interfaces funcionales",
-        "Escribir código en lenguajes como HTML, CSS y JavaScript",
-        "Integrar APIs y generar gráficas dinámicas, así como conectar servicios externos",
-        "Optimizar el rendimiento y la accesibilidad del sitio",
-        "Asegurar que la página se visualice correctamente en distintos dispositivos",
-        "Solucionar errores",
-        "Trabajar con bases de datos",
-        "Colaborar con diseñadores, analistas y otros desarrolladores para entregar un producto digital eficiente, seguro y fácil de usar"
+        "Desarrollo de interfaces web utilizando HTML, CSS, JavaScript, Python y TypeScript.",
+        "Integración de APIs y servicios externos para funcionalidades del sistema.",
+        "Generación de visualizaciones y gráficos dinámicos para análisis de información.",
+        "Optimización del rendimiento, accesibilidad y compatibilidad en distintos dispositivos."
       ]
     },
     "intern": {
       "title": "Practicante de Ingeniería de Datos y Software",
-      "company": "Auna - Clínica las Américas",
-      "period": "Junio - Diciembre 2024",
-      "supervisor": "Juan David Rodríguez Erazo",
-      "phone": "3225100112",
+      "company": "Auna – Clínica Las Américas",
+      "period": "Junio 2024 – Diciembre 2024",
+      "supervisor": "",
+      "phone": "",
       "responsibilities": [
-        "Definir casos de uso y escenarios de operación para el sistema Matrix",
-        "Diseñar una interfaz de usuario intuitiva y accesible, donde los usuarios puedan buscar, filtrar y visualizar parámetros y valores de configuración fácilmente",
-        "Definir y aplicar pautas de experiencia de usuario (UX) que optimicen la facilidad de uso del módulo del sistema Matrix de Auna",
-        "Programar y configurar el Backend del módulo, integrándolo con la base de datos y las aplicaciones necesarias para gestionar parámetros y valores de configuración"
+        "Desarrollo e implementación de módulo backend integrado con bases de datos (SQL, Python y PHP).",
+        "Diseño de interfaces enfocadas en experiencia de usuario (UX).",
+        "Definición de casos de uso y escenarios operativos del sistema.",
+        "Apoyo en la gestión y organización de parámetros del sistema interno."
       ]
     }
   },
